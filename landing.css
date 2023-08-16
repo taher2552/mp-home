@@ -1,0 +1,489 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general css start  */
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --acc-color: #17479E;
+    --border-color: #dcdcdc;
+    --light-grey: #AAA;
+    --active-bg: #C7DBFF;
+    --search-bg: #fcfcfc;
+    --btn-red: #E73725;
+    --font-color: #505050;
+    --light-bg: #f8f8f8;
+}
+
+.common-fonts {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: -0.02563rem;
+}
+
+/* general css start ends */
+
+/* landing page top css starts */
+
+.landing-page-container {
+    background-color: var(--white);
+}
+
+.landing-page-box {
+    max-width: 480px;
+    margin: 0 auto;
+    border: 1px solid green;
+}
+
+.landing-page-player {
+    width: 2.19506rem;
+    height: 2.125rem;
+    border-radius: 50%;
+    margin-left: 0.8rem;
+    cursor: pointer;
+}
+
+.landing-page-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+
+.landing-page-top-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-page-search {
+    margin-left: 0.8rem;
+    background-color: var(--search-bg);
+    padding: 0.8rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.landing-page-menu {
+    cursor: pointer;
+}
+
+/* landing page top css ends */
+
+/* landing top image section starts here  */
+
+.landing-page-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.landing-page-bg img {
+    max-width: 100%;
+    height: auto;
+}
+
+.landing-page-heading {
+    position: absolute;
+    width: 60%;
+    top: 1rem;
+    left: 1rem;
+}
+
+.landing-page-kick-note {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.landing-join-btn {
+    color: var(--btn-red);
+    border: 1px solid var(--btn-red);
+    cursor: pointer;
+    background: transparent;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    text-align: center;
+    width: 6rem;
+    margin-top: 0.8rem;
+}
+
+/* landing top image section ends here  */
+
+/* landing cards section starts here  */
+
+.landing-cards-section {
+    margin: 1rem;
+}
+
+.landing-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+.landing-badge {
+    width: 1.875rem;
+    height: 1.875rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+
+.landing-club {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+}
+
+.landing-club-player {
+    color: var(--font-color);
+    margin-bottom: 0.6rem;
+}
+
+.landing-arrow-right {
+    background-color: var(--btn-red);
+    padding: 0.7rem;
+    padding-bottom: 0.5rem;
+    border-radius: 50%;
+    margin-bottom: 0.6rem;
+    cursor: pointer;
+}
+
+/* landing cards section ends here  */
+
+/* about the game section starts here  */
+
+.landing-about-the-game {
+    background-color: var(--light-bg);
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-about-note {
+    margin-top: 1.5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.landing-game-fb {
+    height: 16.125rem;
+    width: 13.25rem;
+    margin-bottom: 0.94rem;
+}
+
+.landing-para {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: justify;
+    padding-bottom: 2rem;
+}
+
+.landing-description {
+    color: var(--font-color);
+}
+
+/* about the game section ends here  */
+
+/* footer section starts here  */
+.landing-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-logo-2 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.94rem;
+}
+
+.landing-footer-para {
+    padding-bottom: 0.8rem;
+}
+
+
+.landing-insta {
+    margin-left: 0.5rem;
+}
+
+.landind-footer-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.landind-quick-link {
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.landing-footer-list ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--font-color);
+    text-align: center;
+}
+
+.landing-li {
+    margin-bottom: 0.75rem;
+    cursor: pointer;
+}
+
+.landing-li-first {
+    margin-top: 0.75rem;
+}
+
+.landing-address {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--font-color);
+}
+
+.landind-get-in-touch {
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+
+}
+
+.landing-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
+}
+
+.landing-contact-no {
+    margin-left: 0.5rem;
+}
+
+.landing-bottom {
+    background-color: var(--acc-color);
+    text-align: center;
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+
+.landing-copyright {
+    color: var(--white);
+}
+
+
+/* footer section ends here  */
+
+
+/* home page additional css starts here  */
+.home-join-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.home-game-heading {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin-bottom: 0.94rem;
+}
+
+.home-join-now {
+    background-color: var(--btn-red);
+    color: var(--white);
+    padding: 0.3rem 1.25rem;
+    border: none;
+    margin-bottom: 0.5rem;
+}
+
+.home-top-stories {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.home-stories-heading {
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0.94rem;
+}
+
+.home-stories-box {
+    background-color: var(--light-bg);
+    padding: 1rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.home-stories-sport {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.home-stories-para {
+    margin-top: 1rem;
+    color: var(--font-color);
+}
+
+.home-mission {
+    margin-top: 3rem;
+}
+
+.home-mission-heading {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.home-game-on-img {
+    width: 15.8125rem;
+    height: 15.8125rem;
+    margin: 0 auto;
+}
+
+.home-game-on {
+    height: 15.8125rem;
+    width: 15.8125rem;
+    margin-bottom: 1.5rem;
+}
+
+.home-mission-para {
+    color: var(--font-color);
+    text-align: justify;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.home-learn-more {
+    background-color: var(--black);
+    color: var(--white);
+    width: fit-content;
+    border-radius: 50%;
+    padding: 1.5rem 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.home-learn-text {
+    color: var(--white);
+    margin-bottom: 0.5rem;
+}
+
+.home-cards-section{
+    background-color: var(--light-bg);
+    margin-top: 1.5rem;
+    height: auto;
+    padding-bottom: 0.5rem;
+}
+
+.home-card-heading {
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.home-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: var(--white);
+}
+
+.home-card-text{
+    color: var(--font-color);
+    margin-bottom: 0.6rem;
+    text-align: center;
+
+}
+
+/* home page additional css ends here  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:400px) {
+
+    .landing-club-player {
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (max-width:350px) {
+
+    .landing-club-player {
+        font-size: 0.6rem;
+    }
+}
+
+@media only screen and (max-width:280px) {
+    .landing-page-kick-note {
+        font-size: 0.8rem;
+    }
+
+    .landing-club-player {
+        font-size: 0.5rem;
+    }
+}
