@@ -426,7 +426,6 @@
     font-weight: 700;
     text-align: center;
     padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
 }
 
 .home-cards {
@@ -435,6 +434,7 @@
     justify-content: center;
     align-items: center;
     margin: 1rem;
+    margin-top: 1.5rem;
     padding: 0.5rem;
     background-color: var(--white);
 }
